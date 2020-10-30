@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    max-height: 100%;
+    color: #474747;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+img {
+    display: inline;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 6em;
+    width: 100vw;
+    max-width: 100%;
+    justify-content: space-between;
+    align-content: space-between;
+    font-size: 0.6vw;
+}
+.left-nav, .right-nav {
+    margin: 2em;
+    width: 20em;
+}
+.nav {
+    display: inline;
+    margin: 0.8em;
+}
+.sign-in {
+    background-color: #4485F3;
+    color: #FFFFFE;
+    font-weight: 900;
+    padding: 0.5em 1em 0.5em 1em;
+}
+.menu {
+    max-width: 1.2em;
+    max-height: 1.2em;
+}
+main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 6%
+}
+.logo {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.search {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+input#query {
+    margin: 2em;
+    height: 2.5em;
+    width: 45em;
+    border-radius: 1.2em;
+    border-color: #DFE1E5;
+    box-shadow: 0 0;
+    background-image: url(../images/search.png);
+    background-position: 1em;
+    background-repeat: no-repeat;
+    background-size: 1em;
+    padding-left: 3em;
+}
+.text-box-image {
+    position: absolute;
+    left: 0;
+}
+.submit {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+input#submit {
+    margin: 0 1em 0 1em;
+    font-size: 0.7vw;
+    color: #5F6368;
+    background-color: #F2F2F2;
+    border: 0px solid white;
+    padding: 0.7em 1.5em 0.7em 1.5em;
+}
+footer {
+    background-color: #F2F2F2;
+    border-top: 1px solid #E4E4E4;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    max-width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    color: #6C6B6C;
+    font-size: 0.7vw;
+}
+.left-footer, .right-footer {
+    margin: 0.9em 1.3em 0.7em 1.3em;
+}
+.footer {
+    display: inline;
+    margin: 0.6em;
+}
